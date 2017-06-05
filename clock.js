@@ -25,8 +25,10 @@ function startTime() {
 
     if (hour > 12) {
         hour = (hour - 12);
+        document.getElementById("clockbox4").innerHTML = "P.M.";
     } else {
         hour = hour;
+        document.getElementById("clockbox4").innerHTML = "A.M.";
     }
 
     document.getElementById("clockbox1").innerHTML = hour;

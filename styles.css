@@ -41,6 +41,19 @@
     font-size: 35px;
     font-style: Georgia, serif;
 }
+#clockbox4
+{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 100px;
+    padding: 1px;
+    left: 1045px;
+    background-color: gold;
+    text-align: center;
+    font-size: 20px;
+    font-style: Verdana, serif;
+}
 #image1
 {
     position: absolute;
